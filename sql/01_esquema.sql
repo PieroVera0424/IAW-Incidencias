@@ -1,5 +1,4 @@
-DROP TABLE IF EXISTS incidencias
-
+DROP TABLE IF EXISTS incidencias;
 CREATE TABLE incidencias (
   id INT AUTO_INCREMENT PRIMARY KEY,
   usuario VARCHAR(100) NOT NULL,
